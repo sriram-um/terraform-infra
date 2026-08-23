@@ -50,7 +50,7 @@ locals {
 
   rds = {
     master_username = "root"
-    master_password = "followthewhiterabbit"
+    master_password = "REPLACE_WITH_YOUR_DB_PASSWORD"
     db_name         = "cloudacademy"
     engine          = "aurora-mysql"
     engine_version  = "8.0.mysql_aurora.3.08.0"
