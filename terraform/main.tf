@@ -147,7 +147,7 @@ module "eks" {
   cluster_endpoint_public_access   = true
   attach_cluster_encryption_policy = false
   create_iam_role = false
-  iam_role_arn = "arn:aws:iam::676325147835:role/cloudacademylabs-EKSClusterRole-KUbrJY7ZJTqg"
+  iam_role_arn = "arn:aws:iam::999999999999:role/cloudacademylabs-EKSClusterRole-KUbrJY7ZJTqg"
 
   cluster_addons = {
     coredns    = {}
@@ -161,7 +161,7 @@ module "eks" {
   eks_managed_node_groups = {
     default = {
       use_custom_launch_template = false
-      iam_role_arn = "arn:aws:iam::676325147835:role/cloudacademylabs-EKSClusterNodeGroupRole-pmO6fyvWcaOy"
+      iam_role_arn = "arn:aws:iam::999999999999:role/cloudacademylabs-EKSClusterNodeGroupRole-pmO6fyvWcaOy"
       create_iam_role = false
 
       instance_types = local.k8s.instance_types
