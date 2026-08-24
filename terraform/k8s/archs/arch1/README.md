@@ -1,7 +1,7 @@
 ### Architecture 1 (arch1):
 This architecture consists of a single Ingress resource that has multiple paths configured, one for the frontend (html, js, css), and one for the API (csv data). The Ingress resource maps each path to its respective service
 
-![Stocks App](/docs/eks-stocks-arch1.png)
+![Stocks App](architecture1.png)
 
 ### Terraform Provisioning
 This architecture is deployed automatically during provisioning time by setting the `k8s.stocks_app_architecture` Local Value to `arch1` in the `main.tf` template.
