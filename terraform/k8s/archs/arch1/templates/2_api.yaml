@@ -6,7 +6,7 @@ metadata:
 type: Opaque
 stringData:
   DB_USER: root
-  DB_PASSWORD: followthewhiterabbit
+  DB_PASSWORD: REPLACE_WITH_YOUR_DB_PASSWORD
 ---
 apiVersion: apps/v1
 kind: Deployment
